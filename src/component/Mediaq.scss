@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree&family=Lato&display=swap');
+
+
+@media screen and (max-width: 360px) {
+    .sign_con{
+    height: 1024px;
+    background-color: #F8FAFF;
+    width: 100%;
+    .sign_main{
+        display: flex;
+    .nav{
+        width: 100%;
+        background-color: #346BD4;
+        height: 80px;
+        position: absolute;
+        z-index: 2;
+        .log{
+            
+            .logo1{
+                position: relative;
+                z-index: -1;
+                left: 20px;
+                top:27px;
+                width: 25px;
+                height: 26px;
+            }
+            .logo2{
+                position: absolute;
+                left:19px;
+                top:36px;
+                width: 27px;
+                height: 7px;
+            }
+        }
+        .name{
+            display: flex;
+            color: white;
+            position: absolute;
+            left: 50px;
+            font-size: 10px;
+        }
+    }
+    .left_sign{
+        display: none;
+        position: relative;
+        .heading{
+            position: absolute;
+            width: 205px;
+            height: 88px;
+            top: 462.37px;
+            left: 196.33px;
+            color: white;
+            font-size: 72px;
+            font-weight: bolder;
+            line-height: 88px;     
+            font-family: 'Montserrat', sans-serif;   
+        }
+        
+    }
+    .icon_con{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top:none;
+        left:none;
+        z-index: 3;
+        
+        .icons{
+            width: 360px;
+            display: flex;
+            gap: 15px;
+            justify-content:center;
+            >img{
+                width: 30px;
+                height: 30px;        
+                background: grey;
+
+            }
+        }
+    }
+    .right_sign{
+        max-width: 340px;
+        display: flex;
+        margin-top: 100px;
+        flex-direction: column;
+        transform: translateX(3%);
+        justify-content: center;
+        
+        .sign_h1{
+            width: none;
+            height: none;
+            font-family: Montserrat;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 44px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        >p{
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .sub_task{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 5px;
+            .g1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0px 20px;
+                background-color: white;
+                border-radius: 10px;
+                color:#858585;
+                >p{
+                font-size: 10px;
+                }
+                img{
+                    margin: 10px;
+                }
+            }
+        }
+        .sign_form{
+            display: flex;
+            flex-direction: column;
+            width: 328px;
+            height: 348px;
+            margin-top: 20px;
+            padding: 10px 0px;
+            justify-content: center;
+            align-items: center;            
+            background-color: white;
+            max-width: 360px;
+
+            .form{
+                max-width: 330px;
+                padding: 20px 0px;
+                >input{
+                    width: 278px;
+                    height:43px;
+                    margin: 10px 0px;
+                    padding-left: 10px;
+                    border-radius: 10px;
+                    background: #F5F5F5;
+                    border: none;
+                    font-size: 16px;
+                    font-family: 'Lato', sans-serif;
+                }
+                >p{
+                    font-family: 'Lato', sans-serif;
+                }
+
+            }
+            >a{
+                display: flex;
+                width: 80%;
+                text-decoration: none;
+                margin: 20px 0px;
+                color: #346BD4;
+            }
+            .sign_in_btn{
+                width: 90%;
+                height: none;
+                background: #605BFF;
+                overflow: none;
+                border: none;
+                border-radius: 10px;
+                .btn{
+                    color: white;
+                    text-decoration: none;
+                }
+                
+            }
+        }
+        .reg{
+            text-align: center;
+            padding-top: 20px;
+            >a{
+                color: #346BD4;
+                text-decoration: none;
+            }
+            .break{
+                display: block;
+            }
+        }
+    }
+    }
+}
+
+}
